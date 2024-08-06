@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +20,7 @@
         }
         
         .calculadora{
-            position: absolute; /* pra ocupar o espaço dela mesma */
+            position: absolute; 
             background-color: black;
             top: 50%;
             left: 50%;
@@ -37,7 +37,7 @@
             margin: 2px;
             border: none;
             color: white;
-            cursor: pointer; /* cursor muda o estilo quando passa por cima */
+            cursor: pointer; 
         }
 
         .botao:hover{ 
@@ -61,14 +61,12 @@
     <div class="fundo">
         <h1>CalculadoraV1 By: Evandro Miranda</h1>
         <br><br><br><br>
-        <h3> Calculadora de teste, POR FAVOR</h3>
-        <h3> Não coloque dois sinais repetidos ( * / + - )</h3>
         <div class="calculadora">
             <h1>Calculadora</h1>
             <p id="resultado"></p>
-            <table> <!-- Cria a tabela -->
-                <tr> <!-- Define uma linha -->
-                    <td><button class="botao" onclick="limpa()"> C </button></td> <!-- Define a celula da linha -->
+            <table> 
+                <tr> 
+                    <td><button class="botao" onclick="limpa()"> C </button></td> 
                     <td><button class="botao" onclick="retorna()"> < </button></td>
                     <td><button class="botao" onclick="clique('/')"> / </button></td>
                     <td><button class="botao" onclick="clique('*')"> * </button></td>
